@@ -1,0 +1,45 @@
+/* Your story will use the CSS in this passage to style the page.
+Give this passage more tags, and it will only affect passages with those tags.
+Example selectors: */
+
+@import url(css/bootstrap.css);
+@import url(css/bootstrap-grid.css);
+@import url(css/bootstrap-grid.min.css);
+@import url(css/bootstrap-reboot.css);
+@import url(css/bootstrap-reboot.min.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	/* This affects the entire page */
+	background-color: white!important; 
+}
+.passage {
+	/* This only affects passages */
+	
+	
+}
+.passage a {
+	/* This affects passage links */
+	
+	
+}
+.passage a:hover {
+	/* This affects links while the cursor is over them */
+	
+	
+}
+
+.container-fluid {
+padding-top: 30px;
+margin-top: 30px;
+}
+
+img {
+    max-width: 100%;
+} 
+/*To hide link pictogram near clickable images*/
+a.link-external:after {
+    content: none;
+}
+p {
+font-family: 'Montserrat', sans-serif;}
+

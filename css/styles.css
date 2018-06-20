@@ -1,0 +1,202 @@
+#footer {
+  height: 300px;
+  background-image: url(https://github.com/sandro-tyron/post_offices/blob/master/images_2/back4.png?raw=true ); 
+  background-size: cover;
+  background-position: center center;
+  font-family: "sans-serif";
+  font-size: 24px;
+  width: 100%;
+  z-index: 1;
+}
+
+ul {
+    font-family:'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 10;
+    margin-bottom: 150;
+    overflow: hidden;
+    background-color: #302f7e;
+}
+
+li {
+    font-family:'Roboto Condensed',sans-serif;
+    font-size: 20px;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mainMenu {
+  margin: 0px;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #F15D5E;
+}
+#ref {
+  margin: 0px;
+}
+#mapid { 
+  height: 600px; 
+}
+#header {
+  height: 300px;
+  background-image: url(https://github.com/sandro-tyron/post_offices/blob/master/images_2/header.png?raw=true); 
+  background-size: cover;
+  background-position: center center;
+  font-family: "sans-serif";
+  font-size: 24px;
+  width: 100%;
+  z-index: 1;
+}
+
+.column {
+    margin-bottom: 30px;
+    margin-left: : 60px;
+    padding: 20px;
+}
+
+.column-1 {
+  width:115px;
+    height: 56px;
+}
+
+.column-2 {
+  width: 225px;
+    height: 36px;
+
+.banner {
+  color: #000000;
+}
+.infoproject { 
+ font-family: 'Roboto Condensed',sans-serif;
+  margin-left: 40px;
+ font-size: 27px;
+ color:#C6E9FA;
+ }
+
+.cafedra {
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.project_logo {
+   width: 100px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+
+.box {
+ width:420px;  
+}
+#box-dynamic {
+height: 78px;  
+ width: 420px;
+line-height: 5px;  
+   background: rgba(0,0,0, 0.5);
+   float: left;
+  position: absolute;
+left: :90px;
+  z-index: 500 !important;
+-ms-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-webkit-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+#box-dynamic.minimize {
+  width: 110px;
+  height: 110px;
+}
+
+#box-dynamic h1 {
+  margin-right: 5px;
+  color:#fff;
+  font-size:24px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-left: 5px;
+-ms-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-webkit-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+#box-dynamic.minimize h1{
+  font-size:0px;
+  visibility: hidden;
+}
+
+#box-dynamic p {
+  color:#ccc;
+   font-size:15px; 
+  line-height:1.2;
+  margin-left: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+-ms-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-webkit-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+#box-dynamic.minimize p {
+  font-size:0px;
+  visibility: hidden;
+}
+#box-dynamic small {
+ color:#ccc;
+ font-size:10px; 
+ margin-right: 15px;
+  float: right;
+  font-family: 'Roboto Condensed', sans-serif;
+margin-left: 5px;
+margin-top: 0;
+-ms-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-webkit-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+#box-dynamic.minimize small {
+  font-size:0px;
+  visibility: hidden;
+}
+#box-dynamic img {
+  width:55px;
+  height:55px;
+  margin: 0px;
+  padding-right:25px;
+  visibility: visible;
+  float: left;
+  -ms-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-webkit-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+
+#box-dynamic.minimize img {
+margin-top: 5px;
+margin-right: 5px;  
+  width:100px;
+  height:100px;
+}
+
+.leaflet-tooltip.customTooltip {
+ background:rgba(255,255,255, 0.5);
+ border: none;
+  background: none;
+}
+.leaflet-tooltip-bottom.customTooltip::before {
+  border-bottom-color: transparent;
+  border-color: transparent;
+}
